@@ -82,4 +82,4 @@ awk '{sum[$1]+=$3; cnt[$1]++} END{for(i in sum) print i, sum[i]/cnt[i]}'  mito_h
 awk '{sum[$1]+=$3; cnt[$1]++} END{for(i in sum) print i, sum[i]/cnt[i]}' mito_hap2.just-nucl.depth > mito_hap2.just-nucl.mean.depth
 awk '{sum[$1]+=$3; cnt[$1]++} END{for(i in sum) print i, sum[i]/cnt[i]}' mito_hap1.just-nucl.depth > mito_hap1.just-nucl.mean.depth
 
-#The NUMT fragments were finally determined based on nuclear and mitochondrial demitoh
+#The NUMT fragments were finally determined based on nuclear and mitochondrial deph
